@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnturnedConsoleModule", "src\UnturnedConsoleModule.csproj", "{E938135E-5651-4B31-9164-58F06159DA90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E938135E-5651-4B31-9164-58F06159DA90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E938135E-5651-4B31-9164-58F06159DA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E938135E-5651-4B31-9164-58F06159DA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E938135E-5651-4B31-9164-58F06159DA90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
