@@ -12,7 +12,7 @@
     </ItemGroup>
     
     <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-        <Copy SourceFiles="$(TargetDir)\UnturnedConsoleModule.dll" DestinationFolder="$(ProjectDir)\Module" />
+        <Copy SourceFiles="$(TargetDir)\UnturnedConsoleModule.dll" DestinationFolder="$(SolutionDir)\artifacts" />
     </Target>
 
 </Project>
