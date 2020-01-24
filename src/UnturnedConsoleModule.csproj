@@ -10,5 +10,9 @@
           <Private>False</Private>
       </Reference>
     </ItemGroup>
+    
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+        <Copy SourceFiles="$(TargetDir)\UnturnedConsoleModule.dll" DestinationFolder="$(ProjectDir)\Module" />
+    </Target>
 
 </Project>
